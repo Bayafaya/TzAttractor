@@ -11,7 +11,7 @@ import Profile from "./Pages/Profile";
 import MyRepos from "./Pages/MyRepos";
 import OtherUsers from "./Pages/OtherUsers";
 import { AuthContext } from "./Context";
-import Login from "./Pages/Login";
+
 
 
 
@@ -48,7 +48,6 @@ function App() {
     }}>
          <Router>
           <Routes>
-            <Route path="/login" element={<Login/>}/>
             <Route path="/profile" element={<Profile/>}/>
             <Route path="/repos" element={<MyRepos/>}/>
             <Route path="/search" element={<OtherUsers/>}/>
