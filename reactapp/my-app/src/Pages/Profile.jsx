@@ -8,7 +8,7 @@ function Profile() {
     return (
       <div >
         <Header/>
-        <MyAcc />  
+        <MyAcc/>  
       </div>
     );
   }
