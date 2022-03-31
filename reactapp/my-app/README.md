@@ -7,7 +7,6 @@
 ---
 Действия для открытия приложения локально (все действия выполнять в терминале):
 * открыть папку куда клонировать приложение "git clone https://github.com/Bayafaya/TzAttractor.git"
-* cd TzAttractor
 * cd reactapp
 * cd my-app
 *  "npm install"
